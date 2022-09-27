@@ -17,6 +17,20 @@
 
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;                                    /*приховування заголовків секцій*/
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .logo{                                      /*Стилізація логотипу*/
    
     font-family: Raleway;
@@ -80,9 +94,6 @@ background-color: var(--visual-text-color); /*Для візуального ві
     
 }
 
-.title{
-    visibility: hidden;
-}
 
 .quality-list h3{                                 /*підзаголовки секції якості*/
     font-size: 14px;
@@ -133,6 +144,7 @@ background-color: var(--visual-text-color); /*Для візуального ві
 
 .footer-logo{                                           /*стилізація логотипу у футері*/
     
+    font-family: Raleway;
     color: var(--white-color);
     font-size: 26px;
     line-height: 1.19;
@@ -162,6 +174,7 @@ background-color: var(--visual-text-color); /*Для візуального ві
 
 .contacts .contact{                                            /*меіл і телефон у футері*/
     color: var(--footer-text-color);
+    font-weight: 400;
     font-style: normal;
     line-height: 1.71;
 }
