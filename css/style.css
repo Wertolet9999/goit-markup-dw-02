@@ -14,6 +14,7 @@
     --logo-text-color: #000000;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --visual-text-color: #2F303A;
+    --background-color: #F5F4FA; ;
 
 }
 
@@ -115,6 +116,10 @@ background-color: var(--visual-text-color); /*Для візуального ві
     line-height: 1.17;
     text-align: center;
 
+}
+
+.team{
+    background-color: var(--background-color)
 }
 
 .team-list h3{                                       /*список команди-ім’я, прізвище*/
